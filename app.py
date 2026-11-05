@@ -3,6 +3,12 @@ import re
 import random
 import pickle
 import nltk
+
+# Download NLTK resources FIRST before importing corpus modules
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+nltk.download('wordnet', quiet=True)
+
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from flask import Flask, render_template, request, jsonify
