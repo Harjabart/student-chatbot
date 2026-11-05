@@ -4,15 +4,16 @@ import re
 import pickle
 import numpy as np
 import nltk
+
+# Download NLTK resources FIRST before importing corpus modules
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+nltk.download('wordnet', quiet=True)
+
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-
-# Ensure NLTK resources exist
-nltk.download('punkt', quiet=True)
-nltk.download('stopwords', quiet=True)
-nltk.download('wordnet', quiet=True)
 
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
