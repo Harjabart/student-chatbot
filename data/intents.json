@@ -1,0 +1,239 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good day",
+                "Greetings",
+                "Is anyone there?",
+                "Morning",
+                "Afternoon",
+                "hi",
+                "hello there"
+            ],
+            "responses": [
+                "Hello! How can I assist you with your academic inquiries today?",
+                "Hi there! What can I help you with today?"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Have a good day",
+                "I am done",
+                "Catch you later"
+            ],
+            "responses": [
+                "Goodbye! Feel free to reach out if you have more questions.",
+                "Have a great day! All the best in your studies."
+            ]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "That was helpful",
+                "Awesome, thanks",
+                "I appreciate it"
+            ],
+            "responses": [
+                "You're welcome! Glad I could help.",
+                "Happy to assist! Let me know if you need anything else."
+            ]
+        },
+        {
+            "tag": "course-registration",
+            "patterns": [
+                "How do I register courses?",
+                "Course registration deadline",
+                "Add and drop course link",
+                "I can't register my courses",
+                "Course registration portal",
+                "i need help with my registration",
+                "help with course registration",
+                "how to register for courses"
+            ],
+            "responses": [
+                "Course registration can be completed on the student portal. Ensure your school fees are cleared first before attempting course registration."
+            ]
+        },
+        {
+            "tag": "exam-schedule",
+            "patterns": [
+                "When is the examination starting?",
+                "Exam timetable update",
+                "Where can I find the exam schedule?",
+                "When are exams commencing?",
+                "exam date"
+            ],
+            "responses": [
+                "The examination timetable is published on the official notice board and student portal under the 'Academic Calendar' section."
+            ]
+        },
+        {
+            "tag": "fee-payment",
+            "patterns": [
+                "How much is the school fee?",
+                "How to pay tuition fees",
+                "Deadline for fee payment",
+                "School fees portal",
+                "Payment receipt verification",
+                "pay school fees"
+            ],
+            "responses": [
+                "Tuition and institutional fees can be paid online via the student payment gateway on the portal. Please ensure you generate an official receipt post-payment."
+            ]
+        },
+        {
+            "tag": "hostel-information",
+            "patterns": [
+                "How do I apply for hostel?",
+                "Hostel allocation status",
+                "Accommodation fee",
+                "Are hostel spaces available?",
+                "Hostel booking",
+                "accommodation"
+            ],
+            "responses": [
+                "Hostel allocation is handled on a first-come, first-served basis through the accommodation portal after full fee clearance."
+            ]
+        },
+        {
+            "tag": "result-checking",
+            "patterns": [
+                "How can I check my semester result?",
+                "Result portal link",
+                "Are the results out?",
+                "Where to check grades",
+                "check my results"
+            ],
+            "responses": [
+                "Semester results are uploaded to your student profile portal under the 'Result/Transcript' tab once approved by the Academic Board."
+            ]
+        },
+        {
+            "tag": "school-calendar",
+            "patterns": [
+                "When is the semester ending?",
+                "Academic calendar",
+                "When is matriculation?",
+                "Resumption date"
+            ],
+            "responses": [
+                "The approved academic calendar is available on the main university portal dashboard."
+            ]
+        },
+        {
+            "tag": "department-info",
+            "patterns": [
+                "Where is Computer Science department?",
+                "Head of Department contact",
+                "Departmental office location",
+                "Faculty information"
+            ],
+            "responses": [
+                "Departmental offices are open Monday to Friday from 8:00 AM to 4:00 PM. Check your faculty building directory for specific office numbers."
+            ]
+        },
+        {
+            "tag": "admission-requirements",
+            "patterns": [
+                "What is the cut off mark?",
+                "Admission requirements for computer science",
+                "Direct entry requirements"
+            ],
+            "responses": [
+                "Admission requirements including UTME cut-off marks and O'Level prerequisites are published on the university admissions page."
+            ]
+        },
+        {
+            "tag": "library-services",
+            "patterns": [
+                "Library opening hours",
+                "How to borrow books from library",
+                "E-library login"
+            ],
+            "responses": [
+                "The university library is open from 8:00 AM to 6:00 PM on weekdays. You can access the e-library portal using your matriculation details."
+            ]
+        },
+        {
+            "tag": "transcript-request",
+            "patterns": [
+                "How to request academic transcript",
+                "Transcript processing fee",
+                "Official transcript request portal"
+            ],
+            "responses": [
+                "Official academic transcript requests can be initiated via the student portal under the Academic Records section."
+            ]
+        },
+        {
+            "tag": "clearance-procedures",
+            "patterns": [
+                "Final year clearance steps",
+                "Graduation clearance",
+                "How to start clearance"
+            ],
+            "responses": [
+                "Clearance processing requires sign-offs from your Department, Library, Bursary, and Student Affairs division."
+            ]
+        },
+        {
+            "tag": "contact-information",
+            "patterns": [
+                "Admissions office email",
+                "Support phone number",
+                "How to contact administrative staff",
+                "Helpdesk contact"
+            ],
+            "responses": [
+                "You can reach student support at support@university.edu.ng or visit the Student Affairs desk in the Administrative Block."
+            ]
+        },
+        {
+            "tag": "student-portal",
+            "patterns": [
+                "Portal password reset",
+                "I can't login to my portal",
+                "Student portal URL",
+                "Portal login error",
+                "portal issues"
+            ],
+            "responses": [
+                "If you are facing portal login issues, click on 'Forgot Password' or contact the ICT Helpdesk for account retrieval."
+            ]
+        },
+        {
+            "tag": "campus-location",
+            "patterns": [
+                "Where is the health center?",
+                "Location of ICT center",
+                "University address",
+                "How to navigate campus"
+            ],
+            "responses": [
+                "Campus maps are posted at key entrance gates and near the Administrative Building."
+            ]
+        },
+        {
+            "tag": "out-of-scope",
+            "patterns": [
+                "What is the weather today?",
+                "Who won the football match?",
+                "Tell me a joke",
+                "What is your favorite food?"
+            ],
+            "responses": [
+                "I am designed to assist specifically with academic and administrative inquiries. Please ask an academic question."
+            ]
+        }
+    ]
+}
